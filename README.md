@@ -102,6 +102,36 @@ public class HelloWorld{
 }
 ```
 ## Question 7:
+WAP to print a given number in an array using for, while and do-while loop:
+```java
+import java.util.*;  
+public class HelloWorld{
+    public static void main(String []args){
+    	int[] arr = {1,2,3,4,5,6};
+    	Scanner sc= new Scanner(System.in);
+    	int num = sc.nextInt(); 	
+    	int i;
+   	    for(i=0;i<arr.length;i++) {
+    		if(arr[i]==num) {
+    			System.out.println("The given number is: "+num);
+    			break;
+    		}
+    	}
+   		while(i < arr.length) {
+    		if(arr[i]==num) {
+    			System.out.println("The given number is: "+num);			
+    		}i++;
+        }
+        i=0;
+     	do {
+    		if(arr[i]==num) {
+    			System.out.println("The given number is: "+num);	
+    		}i++;  		
+    	}while(i<arr.length);	      
+    }   
+}
+```
+## Question 8:
 WAP to print array elements in the array:
 ```java
 public class Arr{
@@ -114,7 +144,7 @@ public class Arr{
     }    
 }
 ```
-## Question 8:
+## Question 9:
 WAP to print largest element in the array:
 ```java
 import java.util.Arrays;
@@ -127,7 +157,7 @@ public class Arr{
     } 
 }
 ```
-## Question 9:
+## Question 10:
 WAP to print smallest element in the array:
 ```java
 import java.util.Arrays;
@@ -140,7 +170,7 @@ public class Arr{
     } 
 }
 ```
-## Question 10:
+## Question 11:
 WAP to print all elements of one array into another array:
 ```java
 public class PrintingElementsOfArray{
@@ -156,7 +186,7 @@ public class PrintingElementsOfArray{
     }    
 }
 ```
-## Question 11:
+## Question 12:
 WAP to print sum of all the elements of an aarray:
 ```java
 public class Sum{
@@ -171,7 +201,7 @@ public class Sum{
     }    
 }
 ```
-## Question 12:
+## Question 13:
 WAP to print to perform linear search:
 ```java
 public class LinearSearch{
