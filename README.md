@@ -217,3 +217,18 @@ public class LinearSearch{
     }    
 }
 ```
+## Question 14:
+```java
+import java.util.*;  
+public class HelloWorld{
+    public static void main(String []args){
+    	Scanner sc= new Scanner(System.in);
+    	int num = sc.nextInt();
+    	int x = 1;
+    	for(int i = 1; i<=num; i++) {
+    		x= x*i;
+    	}
+    	System.out.println("The factorial of number "+num+" is: "+x);
+    }   
+}
+```
